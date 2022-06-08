@@ -19,9 +19,9 @@ body {
     grid-area: header;
     text-align: center;
     font-size: 3.7rem;
-    margin-top: 70px;
+    margin-top: 25px;
     background-color: black;
-    color: blue;
+    color: rgb(255, 0, 0);
     border: 50px solid black;
     justify-content: center;
     align-items: center;
@@ -32,7 +32,11 @@ body {
 }
 
 .main {
+    display: flex;
     grid-area: main;
+    border: solid black 10px;
+    height: 80vh;
+    width: 81vw;
 }
 
 .sidebar {
@@ -42,8 +46,9 @@ body {
     justify-content: space-evenly;
     align-items: center;
     width: 15vw;
-    border: solid rgb(78, 41, 14) 10px;
+    border: solid black 10px;
     height: 80vh;
+    width: 15vw;
 }
 
 ul {
@@ -56,11 +61,11 @@ ul {
 .social-media-links, .social-media-links::after {
     font-size: 1.8rem;
     text-decoration: none;
-    color: rgb(78, 41, 14); 
+    color: black; 
 }
 
 .social-media-links:hover {
-    color: saddlebrown;
+    color: red;
 }
 
 .profile-pic {
@@ -69,6 +74,20 @@ ul {
     border: solid 15px black;
     padding: 15px;
     background-color: red;
+}
+
+.introdução {
+    width: 60%;
+    border-right: dotted black 5px;
+}
+
+.hard-skills {
+    width: 20%;
+    border-right: dotted black 5px;
+}
+
+.soft-skills {
+    width: 20%;
 }
 
 .footer {
